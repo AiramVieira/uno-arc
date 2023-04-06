@@ -24,20 +24,5 @@ body {
   transform-origin: bottom;
   rotate: -35deg;
   left: calc(35% - -25px * var(--i));
-}
-
-.green {
-  background-color: green;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
-.orange {
-  background-color: orange;
-}
-
-.blue {
-  background-color: blue;
+  background: var(--bg);
 }
